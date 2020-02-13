@@ -1,0 +1,25 @@
+nav{
+    margin: 0.25em;
+    font-size: 1.3em;
+    padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+header, nav{
+	text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+}
+
+nav li {
+    display: inline;
+}
+
+#li_right{
+    /*float: right;*/
+    margin-left: 2em;
+}

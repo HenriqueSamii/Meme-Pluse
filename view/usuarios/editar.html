@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Editar Usuario - Meme Plus</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="editar usuario">
+    <meta name="keywords" content="editar,usuario,editar usuario,meme,plus,meme plus">
+    <meta name="author" content="Henrique Samii">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../estilo/reset.css" />
+    <link rel="stylesheet" href="../../estilo/estilo.css" />
+    <script src="../../modernizr-custom.js"></script>
+    <script src="../../dominio/Usuario.js"></script>
+    <script src="../../dominio/Grupo.js"></script>
+    <script src="../../dominio/Meme.js"></script>
+    <script src="../../dominio/Comentario.js"></script>
+    <script src="../../dominio/Avaliacao.js"></script>
+    <script src="../../local_storage.js"></script>
+    <script src="../../util.js"></script>
+    <script src="../../controller/usuario/editar.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Meme Pluse</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">HOME</a> |</li>
+                <li><a href="../usuarios.html">Usuarios</a> |</li>
+                <li><a href="../grupos.html">Grupos</a></li>
+                <li id="li_right">Usuario Logado: <select id="usuario_logado"></select></li>
+            </ul>
+        </nav>
+        <form>
+            <label>Nome</label>
+            <input type="text" id="nome" required/>
+            <label>Email</label>
+            <input type="email" id="email" required/>
+            <label>Senha</label>
+            <input type="password" id="senha" required/>
+            <input type="button" value="Salvar Alterações" id="btn_salvar" />
+        </form>
+        <footer>
+            <hr>
+            <p>Copyright</p>
+        </footer>
+    </div>
+</body>
+
+</html>
